@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EEF5FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+h1 {
+  color: #377094;
+  margin:2rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+.container{
+  margin: 0.55 rem;
+}
+.news-title{
+  color:#0b0a40;
+  font-size : 1.5rem;
+}
+
+.SearchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+.search-input {
+  outline: none;
+  background: none;
+  border: 1px solid #1a5baf;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  color: #0a0a0a;
+}
+
+.search-input::placeholder {
+  color:#4fcaf3;
+}
+
+.submit-btn {
+  background: #86B6F6;
+  color: #0b0a40;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  margin-left: 1rem
+}
